@@ -1,4 +1,5 @@
-const ReactRefreshWebpackPlugin = require("reacr-refresh-webpack-plugin");
+const path = require('path');
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 
 module.exports = {
   mode: "development",
