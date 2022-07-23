@@ -10,14 +10,6 @@ module.exports = {
         path: path.resolve(__dirname, '..', './build'),
         filename: 'bundle.js',
     },
-    devServer: {
-        static: { directory: path.resolve(__dirname, '..', './build')},
-        port: 3000,
-        open: true,
-        hot: true,
-        compress: true,
-        historyApiFallback: true
-    },
     module: {
         rules: [
             {
@@ -46,7 +38,7 @@ module.exports = {
             title: 'React Typescript Webpack Starter',
             filename: 'index.html',
             template: 'src/template.html',
-            favicon: 'src/assets/favicon.ico',
+            favicon: 'src/assets/images/favicon.ico',
         })
     ]
 }
