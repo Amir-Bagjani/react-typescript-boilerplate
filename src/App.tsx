@@ -1,8 +1,8 @@
-import React from "./assets/images/react.png";
-import Loading from "./assets/images/hearts.svg";
-import RefreshFeature from "./components/RefreshFeature"
+import React from './assets/images/react.png'
+import Loading from './assets/images/hearts.svg'
+import RefreshFeature from './components/RefreshFeature'
 
-const App = () => {  
+const App = () => {
   return (
     <>
       <p>mode is {process.env.NODE_ENV}!</p>
@@ -14,7 +14,7 @@ const App = () => {
       <br />
       <RefreshFeature />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

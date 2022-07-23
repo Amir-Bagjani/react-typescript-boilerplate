@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Montserrat';
-    background-color: rgba(226, 239, 243, 0.329);
-    text-align: center;
-    padding: 1rem;
+body {
+  font-family: 'Montserrat';
+  background-color: rgba(226, 239, 243, 0.329);
+  text-align: center;
+  padding: 1rem;
 }
-h1{
-    color: rgb(42, 120, 228);
+h1 {
+  color: rgb(42, 120, 228);
 }
