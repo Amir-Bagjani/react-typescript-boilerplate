@@ -9,7 +9,7 @@ npx degit https://github.com/Amir-Bagjani/react-typescript-boilerplate project
 or clone repository
 
 ```bash
-  git clone https://github.com/Amir-Bagjani/react-typescript-boilerplate
+  git clone https://github.com/Amir-Bagjani/react-typescript-boilerplate.git
 ```
 
 Install dependencies
