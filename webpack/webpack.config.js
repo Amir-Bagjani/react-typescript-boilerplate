@@ -12,7 +12,7 @@ module.exports = {
         filename: 'bundle.js',
     },
     devServer: {
-        static: { directory: path.resolve(__dirname, '..', 'build')},
+        static: { directory: path.resolve(__dirname, '..', './build')},
         port: 3000,
         open: true,
         hot: true,
@@ -27,7 +27,19 @@ module.exports = {
                 use: [
                     {loader: 'babel-loader'}
                 ]
-            }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(?:ico|png|jpg|jpeg|gif)$/i,
+                type: 'asset/resource'
+            },
+            {
+                test: /\.(woff(2)?|eot|ttf|otf|svg)$/,
+                type: 'asset/inline',
+            },
         ]
     },
     plugins: [
