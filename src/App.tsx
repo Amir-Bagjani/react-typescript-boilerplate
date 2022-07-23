@@ -1,19 +1,31 @@
-import React from './assets/images/react.png'
-import Loading from './assets/images/hearts.svg'
-import RefreshFeature from './components/RefreshFeature'
+import logo from './assets/images/logo.svg'
 
 const App = () => {
   return (
-    <>
-      <p>mode is {process.env.NODE_ENV}!</p>
-      <img src={Loading} alt="heart" />
-      <h1>Hello World!!</h1>
-      <img src={React} alt="react" width="500" height="300" />
-      <br />
-      <br />
-      <br />
-      <RefreshFeature />
-    </>
+    <div className="App">
+      <header className="App-header">
+        <a
+          className="App-link"
+          href="https://github.com/Amir-Bagjani/react-typescript-boilerplate"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get this boilerplate from github
+        </a>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   )
 }
 
