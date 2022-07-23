@@ -4,10 +4,10 @@ import Loading from "./assets/hearts.svg";
 const App = () => {
   return (
     <>
+      <p>mode is {process.env.NODE_ENV}</p>
+      <img src={Loading} alt="heart" />
       <h1>Hello World!!</h1>
       <img src={React} alt="react" width="500" height="300" />
-      <br />
-      <img src={Loading} alt="heart" />
     </>
   );
 };
